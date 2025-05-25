@@ -12,6 +12,7 @@
 body {
     background-color: rgb(204,241,255);
     background-image: url("/img/bg.jpg");
+    background-repeat: no-repeat;
 }
 
 hr {
@@ -65,6 +66,7 @@ p {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 12px;
 }
 
 .button2 {
@@ -78,6 +80,7 @@ p {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+     margin-left: 12px;
 }
 
 .center-text {
