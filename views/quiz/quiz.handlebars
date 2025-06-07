@@ -1,18 +1,29 @@
 <br> <br>
 
-<h1>O MELHOR QUIZ DO MUNDO: </h1>
+<h2>O MELHOR QUIZ DO MUNDO: </h2>
 <br><br>
 
 
 
-<h1>{{question.text}}</h1>
+<h3>{{question.text}}</h3>
 <br>    
 
 <form method="post">
 
 {{#each question.alternatives}}
-    <button class="button2" type="submit" formaction="/verifyquestion?id={{../question.id}}&button={{@key}}">{{this}}</button> <br>
+    <button class="button2" type="submit" formaction="verifyquestion?id={{../question.id}}&button={{@key}}">{{this}}</button> <br>
 {{/each}}
  
 
+
 </form>
+
+
+
+<div class="margin">
+<a href="/resetquiz">
+    <button class="button1 button-margin" >Reiniciar</button>
+</a>
+
+</div>
+

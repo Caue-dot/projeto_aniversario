@@ -12,19 +12,31 @@
 body {
     background-color: rgb(204,241,255);
     background-image: url("/img/bg.jpg");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 
 hr {
     border: 2px solid rgb(236, 24, 24);
 }
 
-h1 {
+h1,h2,h3{
     color: rgb(236, 24, 24);
-    font-size: 90px;
     font-family: 'stich', sans-serif;
     text-shadow: 2px 4px 0px black;
 
+}
+
+h1 {
+    font-size: 90px;
+
+}
+
+h2{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 45px;
 }
 
 
@@ -48,7 +60,12 @@ p {
     justify-content: space-between;
 }
 
-
+.header{
+    display: flex;
+    justify-content: center;
+    bottom: 100%;
+    
+}
 .lilo {
     width: 200px;
     height: 220px;
@@ -94,6 +111,11 @@ p {
     align-items: center;
 }
 
+.margin{
+    margin-top: 30px;
+    bottom : 0;
+
+}
 @media(max-width:600px) {
     .lilo {
         width: 80px;
@@ -106,21 +128,26 @@ p {
         font-size: 35px;
     }
 
+    h2{
+        font-size: 30px;
+    }
+
+
     img {
         width: 200px;
         padding: 9px;
     }
 
-    .button1 {
+
+    button {
         width: 120px;
         height: 40px;
         font-size: 12px;
+        
     }
 
-    .button2 {
-        width: 120px;
-        height: 40px;
-        font-size: 12px;
+    .button1.button-margin{
+        margin-bottom: 20px;
     }
 
 }

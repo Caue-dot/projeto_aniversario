@@ -79,6 +79,12 @@ app.post("/verifyquestion", (req, res) => {
 
 })
 
+app.get("/resetquiz", (req,  res)=>{
+    res.cookies.set("currQuestion", "0")
+    res.redirect("/quiz")
+
+})
+
 
 //Outros
 
