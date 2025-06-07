@@ -36,6 +36,10 @@ app.get("/", (req, res) => {
     res.render("index")
 })
 
+app.get("/cueca", (req, res) => {
+    res.render("cueca")
+})
+
 app.get("/quiz", (req, res) => {
     
     var currQuestionCookie = req.cookies.get("currQuestion")

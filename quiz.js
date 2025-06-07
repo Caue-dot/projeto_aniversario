@@ -3,16 +3,16 @@
 export const questions = [
     {
         id: 0,
-        text: "Qual e a capital do Brasil?",
+        text: "Quem foi a primeira pessoa que teve a casa visitada por todo mundo ao mesmo tempo?",
 
         alternatives: {
-            a: "Alemanha",
-            b: "Amapa",
-            c: "Brasilia",
-            d: "DF",
+            a: "Bia",
+            b: "Gaby",
+            c: "Nathan",
+            d: "Ana",
         },
 
-        correct: "c"
+        correct: "a"
 
 
     },
@@ -25,6 +25,70 @@ export const questions = [
             b: "Eu",
             c: "Eu",
             d: "Ana",
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 2,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 2,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 2,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 2,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
         },
 
         correct: "d"
