@@ -10,8 +10,13 @@ export const questions = [
             b: "Gaby",
             c: "Nathan",
             d: "Ana",
+            a: "Bia",
+            b: "Gaby",
+            c: "Nathan",
+            d: "Ana",
         },
 
+        correct: "a"
         correct: "a"
 
 
@@ -97,6 +102,86 @@ export const questions = [
     },
     {
         id: 2,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 3,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 4,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 5,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 6,
+        text: "De quem você mais gosta?",
+
+        alternatives: {
+            a: "Eu",
+            b: "Eu",
+            c: "Eu",
+            d: "Ana",
+            e: "Ana2"
+        },
+
+        correct: "d"
+
+
+    },
+    {
+        id: 7,
         text: "De quem você mais gosta?",
 
         alternatives: {
