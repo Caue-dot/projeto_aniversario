@@ -9,6 +9,11 @@
     src: url('/fonts/BukaBird.ttf')
 }
 
+@font-face {
+    font-family: 'playnets';
+    src: url('/fonts/Playnets.ttf')
+}
+
 body {
     background-color: rgb(204,241,255);
     background-image: url("/img/bg.jpg");
@@ -43,7 +48,7 @@ h3{
 p {
     color: white;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'playnets';
 }
 
 .lilo-container {
@@ -90,8 +95,8 @@ p {
     background: none;
     border: solid 1px;
     border-color: rgb(0, 29, 79);
-    width: 110px;
-    height: 40px;
+    width: 230px;
+    height: 60px;
     color: rgb(0, 29, 79);
     font-size: 15px;
     font-weight: bold;
