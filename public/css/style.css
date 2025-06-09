@@ -103,8 +103,10 @@ p {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-     margin-left: 12px;
+    margin-left: 12px;
 }
+
+
 
 .center-text {
     text-align: center;
