@@ -1,16 +1,25 @@
 <div class="center-all">
 
     <br>
-    <p>A Tartaruga Sabia </p>
+    <h3 class="center-text">A Tartaruga Sabia </h3>
 
     <br> <br>
 
 
+    <img src="img/tartaruga.webp" class="img-bigger">
     {{#if answer}}
-    {{answer}}
+    <p>A tartaruga disse:</p>
+
+    <b><p class="center-text"> {{answer}}</p> </b>
+
+
+    <br> <br> 
+    <a href="tartaruga">
+        <button class="button2">Voltar</button>
+    </a>
 
     {{else}}
-    <button class="button2" onclick="location.href='/tartaruga?resposta=true'">Pergunte a grande Tartaruga
-        Sábia</button>
+    <button class="button2" onclick="location.href='/tartaruga?resposta=true'"> <b>Pergunte a grande Tartaruga
+        Sábia </b></button>
     {{/if}}
 </div>

@@ -17,7 +17,6 @@ export const questions = [
         },
 
         correct: "a"
-        correct: "a"
 
 
     },
