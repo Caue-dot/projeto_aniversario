@@ -39,9 +39,15 @@ app.get("/", (req, res) => {
     res.render("index")
 })
 
+app.get("/cartinha", (req,res)=>{
+    res.render("cartinha")
+})
+
 app.get("/cueca", (req, res) => {
     res.render("cueca")
 })
+
+
 
 app.get("/tartaruga", (req, res) => {
     if(req.query.resposta){

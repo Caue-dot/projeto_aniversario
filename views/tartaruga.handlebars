@@ -10,18 +10,21 @@
     {{#if answer}}
     <p>A tartaruga disse:</p>
 
-    <b><p class="center-text"> {{answer}}</p> </b>
+    <b>
+        <p class="center-text"> {{answer}}</p>
+    </b>
 
 
-    <br> <br> 
+    <br> <br>
     <a href="tartaruga">
         <button class="button2">Voltar</button>
     </a>
 
     {{else}}
     <p class="center-text">Faça a pergunta em voz alta e depois clique no botão para receber sua resposta</p>
-    <br>
-    <button class="button2" onclick="location.href='/tartaruga?resposta=true'"> <b>Pergunte a grande Tartaruga
-        Sábia </b></button>
+    <br><br>
+    <button class="button2" onclick="location.href='/tartaruga?resposta=true'">
+        <b>Pergunte a grande Tartaruga Sábia </b>
+    </button>
     {{/if}}
 </div>
