@@ -64,6 +64,7 @@ p {
 .container{
     display: flex;
     justify-content: space-between;
+
 }
 
 .header{
@@ -153,6 +154,8 @@ a{
     img {
         width: 200px;
         padding: 9px;
+        max-width: 100%;
+        align-self: center;
     }
 
     .img-bigger{

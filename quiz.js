@@ -10,10 +10,6 @@ export const questions = [
             b: "Gaby",
             c: "Nathan",
             d: "Ana",
-            a: "Bia",
-            b: "Gaby",
-            c: "Nathan",
-            d: "Ana",
         },
 
         correct: "a"
@@ -22,125 +18,58 @@ export const questions = [
     },
     {
         id: 1,
-        text: "Quem e sua melhor amiga?",
+        text: "Quantos cachorros a Bia tem?",
 
         alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
+            a: "1",
+            b: "2",
+            c: "3",
+            d: "4",
         },
 
-        correct: "d"
+        correct: "b"
 
 
     },
     {
         id: 2,
-        text: "De quem você mais gosta?",
+        text: "Qual é a paixão alimentar da Bia?",
 
         alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
+            a: "Picolé",
+            b: "Amendoim",
+            c: "Pipoca",
+            d: "Pizza",
         },
 
-        correct: "d"
-
-
-    },
-    {
-        id: 2,
-        text: "De quem você mais gosta?",
-
-        alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
-        },
-
-        correct: "d"
-
-
-    },
-    {
-        id: 2,
-        text: "De quem você mais gosta?",
-
-        alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
-        },
-
-        correct: "d"
-
-
-    },
-    {
-        id: 2,
-        text: "De quem você mais gosta?",
-
-        alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
-        },
-
-        correct: "d"
-
-
-    },
-    {
-        id: 2,
-        text: "De quem você mais gosta?",
-
-        alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
-        },
-
-        correct: "d"
+        correct: "b"
 
 
     },
     {
         id: 3,
-        text: "De quem você mais gosta?",
+        text: "Em qual dessas situações a Bia e Gaby quase choraram de rir",
 
         alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
+            a: "Fazendo um vídeo pro Youtube",
+            b: "No parquinho",
+            c: "No exame de vista",
+            d: "Na apresentação da escola",
         },
 
-        correct: "d"
+        correct: "c"
 
 
     },
     {
         id: 4,
-        text: "De quem você mais gosta?",
+        text: "Como começou a amizade entre a Bia e a Gaby",
 
         alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
+            a: "Na fila da cantina",
+            b: "No grupo da igreja",
+            c: "Na aula de educação física",
+            d: "Jogando Pou no meio da aula",
         },
 
         correct: "d"
@@ -149,52 +78,37 @@ export const questions = [
     },
     {
         id: 5,
-        text: "De quem você mais gosta?",
+        text: "Quanto é (-80538738812075974)³ + 80435758145817515³ + 12602123297335631³?",
 
         alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
+            a: "-451",
+            b: "62325",
+            c: "42",
+            d: "81",
+    
         },
 
-        correct: "d"
+        correct: "c"
 
 
     },
     {
         id: 6,
-        text: "De quem você mais gosta?",
+        text: "Qual dessas características mais define a Bia?",
 
         alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
+            a: "Engraçada",
+            b: "Inspiradora",
+            c: "Criativa",
+            d: "Todas as anteriores",
+
         },
 
         correct: "d"
 
 
     },
-    {
-        id: 7,
-        text: "De quem você mais gosta?",
-
-        alternatives: {
-            a: "Eu",
-            b: "Eu",
-            c: "Eu",
-            d: "Ana",
-            e: "Ana2"
-        },
-
-        correct: "d"
-
-
-    },
+    
 
 ]
 
